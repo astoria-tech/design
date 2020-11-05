@@ -35,7 +35,7 @@ Yellow #FFDA00
 
 ** Donatello Color Palette **
 
-Bright Purple #B947A7
-Dark Purple #944CAD
-Teal #49B775
-Green #98BB35
+* Bright Purple #B947A7
+* Dark Purple #944CAD
+* Teal #49B775
+* Green #98BB35
