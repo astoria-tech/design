@@ -3,24 +3,27 @@
 
 ## Typefaces
 
-### Primary Typeface
+## Primary Typeface
 
 [DM Mono](https://fonts.google.com/specimen/DM+Mono)
 
-### Headlines
+## Headlines
 
-####H1, H2
+###H1, H2
 [Fjalla One](https://fonts.google.com/specimen/Fjalla+One) 
 
 ```
+
 Text-transform: uppercase; 
 Font-weight: bold;
 
 ```
-####H3, H4...
+###H3, H4...
 [DM Mono](https://fonts.google.com/specimen/DM+Mono)
 
 ```
+
+Font-family: DM Mono;
 Font-weight: 500;
 
 ```
