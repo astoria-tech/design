@@ -9,7 +9,7 @@
 
 ## Headlines
 
-###H1, H2
+### H1, H2
 [Fjalla One](https://fonts.google.com/specimen/Fjalla+One) 
 
 ```
@@ -18,7 +18,7 @@ Text-transform: uppercase;
 Font-weight: bold;
 
 ```
-###H3, H4...
+### H3, H4...
 [DM Mono](https://fonts.google.com/specimen/DM+Mono)
 
 ```
@@ -36,7 +36,7 @@ Yellow #FFDA00
 
 ### Secondary Colors
 
-####Donatello Color Palette 
+*Donatello Color Palette*
 
 * Bright Purple #B947A7
 * Dark Purple #944CAD
