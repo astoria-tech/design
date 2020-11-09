@@ -39,4 +39,4 @@ Yellow `#FFDA00`
 * Bright Purple #B947A7
 * Dark Purple `#944CAD`
 * Teal `#49B775`
-* Green #98BB35
+* Green `#98BB35`
