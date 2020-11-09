@@ -13,7 +13,6 @@
 [Fjalla One](https://fonts.google.com/specimen/Fjalla+One) 
 
 ```
-
 Text-transform: uppercase; 
 Font-weight: bold;
 
