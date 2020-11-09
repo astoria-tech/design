@@ -30,7 +30,7 @@ Font-weight: 500;
 
 ### Primary Color
 
-Yellow #FFDA00
+Yellow `#FFDA00`
 
 ### Secondary Colors
 
