@@ -12,7 +12,7 @@
 ### H1, H2
 [Fjalla One](https://fonts.google.com/specimen/Fjalla+One) 
 
-```
+```css
 Text-transform: uppercase; 
 Font-weight: bold;
 ```
