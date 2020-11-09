@@ -22,7 +22,6 @@ Font-weight: bold;
 ```css
 Font-family: DM Mono;
 Font-weight: 500;
-
 ```
 
 ## Colors
