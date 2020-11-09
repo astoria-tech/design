@@ -20,7 +20,6 @@ Font-weight: bold;
 [DM Mono](https://fonts.google.com/specimen/DM+Mono)
 
 ```css
-
 Font-family: DM Mono;
 Font-weight: 500;
 
