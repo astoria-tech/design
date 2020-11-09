@@ -15,7 +15,6 @@
 ```
 Text-transform: uppercase; 
 Font-weight: bold;
-
 ```
 ### H3, H4...
 [DM Mono](https://fonts.google.com/specimen/DM+Mono)
