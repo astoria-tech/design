@@ -62,6 +62,10 @@ p {
   line-height: 1.5;
 }
 
+.copyright {
+  text-align: center;
+}
+
 /* Links */
 
 a {
@@ -98,6 +102,66 @@ a {
     color: black;
     background-color: #FFDA00;  
   }
+
+  /* Buttons */
+
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    background: white;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: .5em;
+    cursor: pointer;
+    border-radius: 0.15rem;
+    
+  }
+
+  /*
+  .button {
+    border: 0;
+    border-radius: 0.15rem;
+    background:  #FFDA00;
+    color: black;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: .5em;
+    cursor: pointer;
+  }
+  */
+
+  button:hover {
+
+    background:  #FFDA00;
+    border: 0;  
+
+   }
+  
+  button:focus { 
+
+    background:  #FFDA00;
+
+  }
+
+  button[disabled] {
+    opacity: 0.85;
+    pointer-events: none;
+  } 
+  
 
   /* Color
 
@@ -146,6 +210,36 @@ a {
     margin: 0 auto;
     padding: 2em;
   }
+
+  section {
+    margin: 1em;
+  }
+
+  .card {
+    border: .15em solid;
+  }
+
+  .card-header {
+    padding-left: 1em;
+    padding-right: 1em;
+        
+  }
+
+  .card-paragraph {
+    border-top: .15em solid;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .card-secondary-paragraph {
+    border-top: .15em dashed;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  
   
   /* Header */
 
@@ -172,11 +266,6 @@ a {
     */
 
   }
-
-
-
-  
-
   
   /* Footer */
 
