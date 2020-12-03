@@ -1,7 +1,7 @@
 ## Astoria Digital's Design Directory
 
 - [Style Guide](https://www.figma.com/file/LXKWblcPXToV1uVakYXbhB/Astoria-Digital?node-id=133%3A3) by [@lifualexfan](http://github.com/lifualexfan)
-- [Pattern Library] (https://www.figma.com/proto/4qqHCvcrTdm6kqwJHDUde3/Astoria-Digital-Pattern-Library?node-id=358%3A212&scaling=scale-down) by [@aniagaska](https://github.com/aniagaska)
+- [Pattern Library](https://www.figma.com/proto/4qqHCvcrTdm6kqwJHDUde3/Astoria-Digital-Pattern-Library?node-id=358%3A212&scaling=scale-down) by [@aniagaska](https://github.com/aniagaska)
 
 ## Typefaces
 
