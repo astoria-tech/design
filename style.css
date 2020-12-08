@@ -1,0 +1,300 @@
+/* Typography */
+
+/*
+
+    Fjalla One 
+        Uppercase
+        400
+
+    DM Mono
+        light 300
+        light 300 italic
+        regular 400
+        regular 400 italic
+        medium 500
+        medium 500 italic
+ */
+
+html {
+  font-size: 18px;
+  font-family: 'DM Mono', Courier, monospace;
+}
+
+h1, h2, h3 {
+  font-family: 'Fjalla One', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4, h5, h6 {
+  font-family: 'DM Mono', Courier, monospace;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+a, p {
+  line-height: 1.5;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  text-decoration: underline 0.1em solid;
+  color: black;
+}
+
+a:link {
+  text-decoration: underline 0.1em solid;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+  background-color: #FFDA00;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+  background-color: #FFDA00;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #FFDA00;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+  background-color: #FFDA00;
+}
+
+/* Buttons */
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  background: white;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: .5em;
+  cursor: pointer;
+  border-radius: 0.15rem;
+}
+
+/*
+  .button {
+    border: 0;
+    border-radius: 0.15rem;
+    background:  #FFDA00;
+    color: black;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: .5em;
+    cursor: pointer;
+  }
+  */
+
+button:hover {
+  background: #FFDA00;
+  border: 0;
+}
+
+button:focus {
+  background: #FFDA00;
+}
+
+button[disabled] {
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* Color
+
+    Primary Color Palette
+
+        yellow #FFDA00
+        black
+        white
+
+    Donatello Color Palette
+
+        Bright Purple #B947A7
+        Dark Purple #944CAD
+        Teal #49B775
+        Green #98BB35
+
+    More Colors
+
+        blue #2077C7
+        orange #FF7A00
+        red #FF1F00
+        gray #DAD7CF
+        pink #E2407A
+
+ */
+
+/* Layout */
+
+/* Lines 
+ 
+    border: .15em solid;
+
+    or
+
+    border: .15em dashed;
+
+ */
+
+* {
+  box-sizing: border-box;
+  /* width and height includes padding and border */
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+section {
+  margin: 1em;
+}
+
+/* Card */
+
+.card {
+  border: .15em solid;
+}
+
+.card-header {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.card-paragraph {
+  border-top: .15em solid;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.card-secondary-paragraph {
+  border-top: .15em dashed;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  background-color: #FFDA00;
+  padding: 1em;
+  /*
+    
+    outlines for section:
+
+    border: .15em solid;
+    border: .15em dashed; (on white background only)
+    
+    */
+  /* 
+    
+    Black background with white text 
+
+    color: white;
+    background-color: black;
+
+    */
+}
+
+/* Footer */
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+
+/* Screen Sizes */
+
+/* Big Screens */
+
+@media screen and (min-width: 1000px) {
+  
+  html {
+    font-size: 20px;
+  }
+}
+
+  /* Small Screens*/
+
+  @media screen and (max-width: 500px) {
+    html {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.75em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.25em;
+    }
+    h5 {
+      font-size: 1.25em;
+    }
+    h6 {
+      font-size: 1.25em;
+    }
+  }
