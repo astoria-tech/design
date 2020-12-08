@@ -205,6 +205,8 @@ section {
   margin: 1em;
 }
 
+/* Card */
+
 .card {
   border: .15em solid;
 }
@@ -259,17 +261,20 @@ footer {
   padding-bottom: 1em;
 }
 
-/* Card */
 
 /* Screen Sizes */
 
 /* Big Screens */
 
 @media screen and (min-width: 1000px) {
+  
   html {
     font-size: 20px;
   }
+}
+
   /* Small Screens*/
+
   @media screen and (max-width: 500px) {
     html {
       font-size: 15px;
@@ -292,3 +297,4 @@ footer {
     h6 {
       font-size: 1.25em;
     }
+  }
