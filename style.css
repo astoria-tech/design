@@ -1,5 +1,6 @@
 /* Typography */
 
+
 body {
   font-size: 100%;
   line-height: 1.5;
@@ -30,6 +31,7 @@ h1, h2, h3 {
   text-transform: uppercase;
   font-weight: 400;
   line-height: 1.25;
+
 }
 
 h1 {
@@ -274,38 +276,42 @@ footer {
   padding-bottom: 1em;
 }
 
+
 /* Screen Sizes */
 
 /* Big Screens */
 
 @media screen and (min-width: 1000px) {
+
   html {
     font-size: 20px;
   }
 }
 
-/* Small Screens*/
 
-@media screen and (max-width: 500px) {
-  html {
-    font-size: 15px;
+  /* Small Screens*/
+
+  @media screen and (max-width: 500px) {
+    html {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.75em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.25em;
+    }
+    h5 {
+      font-size: 1.25em;
+    }
+    h6 {
+      font-size: 1.25em;
+    }
   }
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.75em;
-  }
-  h3 {
-    font-size: 1.5em;
-  }
-  h4 {
-    font-size: 1.25em;
-  }
-  h5 {
-    font-size: 1.25em;
-  }
-  h6 {
-    font-size: 1.25em;
-  }
-}
+
