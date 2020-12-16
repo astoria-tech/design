@@ -120,11 +120,11 @@ button {
   margin: .5em;
   cursor: pointer;
   border-radius: 0.15rem;
+  border: 1px solid;
 }
 
 button:hover {
   background: #FFDA00;
-  border: 0;
 }
 
 button:focus {
@@ -179,14 +179,6 @@ header {
   text-align: center;
   background-color: #FFDA00;
   padding: 1em;
-  /*
-    
-    outlines for section:
-
-    border: .15em solid;
-    border: .15em dashed; (on white background only)
-    
-    */
 }
 
 /* Footer */
@@ -209,29 +201,29 @@ footer {
 }
 
 
-  /* Small Screens*/
+/* Small Screens*/
 
-  @media screen and (max-width: 500px) {
-    html {
-      font-size: 15px;
-    }
-    h1 {
-      font-size: 2em;
-    }
-    h2 {
-      font-size: 1.75em;
-    }
-    h3 {
-      font-size: 1.5em;
-    }
-    h4 {
-      font-size: 1.25em;
-    }
-    h5 {
-      font-size: 1.25em;
-    }
-    h6 {
-      font-size: 1.25em;
-    }
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 15px;
   }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1.25em;
+  }
+  h5 {
+    font-size: 1.25em;
+  }
+  h6 {
+    font-size: 1.25em;
+  }
+}
 
