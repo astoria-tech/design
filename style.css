@@ -1,17 +1,19 @@
 /* Typography */
 
-
 html {
   font-size: 18px;
   font-family: 'DM Mono', Courier, monospace;
 }
 
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 body {
-  font-size: 100%;
-  line-height: 1.5;
-  max-width: 100%;
   margin: 0 auto;
-  padding: 2em;
+  padding: 1em;
 }
 
 h1, h2, h3 {
@@ -20,6 +22,12 @@ h1, h2, h3 {
   font-weight: 400;
   line-height: 1.25;
 
+}
+
+h4, h5, h6 {
+  font-family: 'DM Mono', Courier, monospace;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
 h1 {
@@ -32,12 +40,6 @@ h2 {
 
 h3 {
   font-size: 2.5em;
-}
-
-h4, h5, h6 {
-  font-family: 'DM Mono', Courier, monospace;
-  font-weight: 300;
-  line-height: 1.25;
 }
 
 h4 {
@@ -113,14 +115,11 @@ button {
   overflow: visible;
   text-transform: none;
   -webkit-appearance: button;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin: .5em;
+  padding: 1em 2em;
+  margin: 0.5em;
   cursor: pointer;
   border-radius: 0.15rem;
-  border: 1px solid;
+  border: 2px solid;
 }
 
 button:hover {
@@ -145,29 +144,29 @@ button[disabled] {
 }
 
 section {
-  margin: 1em;
+  margin: 1em 0;
 }
 
-/* Card */
+/* Cards */
 
 .card {
-  border: .15em solid;
+  border: 0.15em solid;
 }
 
-.card-header {
+.card__header {
   padding-left: 1em;
   padding-right: 1em;
 }
 
-.card-paragraph {
-  border-top: .15em solid;
+.card__paragraph {
+  border-top: 0.15em solid;
   padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
 }
 
-.card-secondary-paragraph {
-  border-top: .15em dashed;
+.card__secondary-paragraph {
+  border-top: 0.15em dashed;
   padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
@@ -187,43 +186,3 @@ footer {
   padding-top: 2em;
   padding-bottom: 1em;
 }
-
-
-/* Screen Sizes */
-
-/* Big Screens */
-
-@media screen and (min-width: 1000px) {
-
-  html {
-    font-size: 20px;
-  }
-}
-
-
-/* Small Screens*/
-
-@media screen and (max-width: 500px) {
-  html {
-    font-size: 15px;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.75em;
-  }
-  h3 {
-    font-size: 1.5em;
-  }
-  h4 {
-    font-size: 1.25em;
-  }
-  h5 {
-    font-size: 1.25em;
-  }
-  h6 {
-    font-size: 1.25em;
-  }
-}
-
