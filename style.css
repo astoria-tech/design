@@ -168,7 +168,7 @@ button[disabled]:hover {
 
 /* Header */
 
-body > header {
+header {
   text-align: center;
   background-color: var(--ad-primary-color);
   color: #000;
