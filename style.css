@@ -4,12 +4,14 @@
   --ad-primary-color: #ffda00;
   --ad-main-text: #000;
   --ad-background-color: #fff;
+  --ad-background-accent-color: #eee;
 }
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    --ad-background-color: #000;
     --ad-main-text: #fff;
+    --ad-background-color: #000;
+    --ad-background-accent-color: #eeeeee29;
   }
 }
 
@@ -167,7 +169,7 @@ th:last-of-type, td:last-of-type {
 }
 
 tr:nth-child(even) {
-  background-color: #eee;
+  background-color: var(--ad-background-accent-color);
 }
 
 /* Cards */
